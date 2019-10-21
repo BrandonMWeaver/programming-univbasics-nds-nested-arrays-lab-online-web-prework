@@ -17,11 +17,10 @@ ENFIELD_TENNIS_ACADEMY = [
 ]
 
 def assembled_matrix
-  matrix = [
+  return [
     ENNET_HOUSE,
     ENFIELD_TENNIS_ACADEMY
-    ]
-  Return matrix
+  ]
 end
 
 def array_literal_matrix

@@ -25,8 +25,8 @@ end
 
 def array_literal_matrix
   matrix = assembled_matrix
-  matrix[0].sort
-  matrix[1].sort
+  matrix[0] = matrix[0].sort
+  matrix[1] = matrix[1].sort
   return matrix
 end
 
